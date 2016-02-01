@@ -1,1 +1,18 @@
 
+Installing Control Machine Using Package Manager:
+RedHat , CentOS Linux
+RPM's are avilable from yum for EPEL, So we need to enable EPEL Repository in RHEL, CentOS
+        RHEL/CentOS 7 64 Bit
+        
+ # wget http://dl.fedoraproject.org/pub/epel/7/x86_64/e/epel-release-7-5.noarch.rpm
+ # rpm -ivh epel-release-7-5.noarch.rpm
+        
+        ## RHEL/CentOS 6 32-Bit ##
+# wget http://download.fedoraproject.org/pub/epel/6/i386/epel-release-6-8.noarch.rpm
+# rpm -ivh epel-release-6-8.noarch.rpm
+
+        ## RHEL/CentOS 6 64-Bit ##
+# wget http://download.fedoraproject.org/pub/epel/6/x86_64/epel-release-6-8.noarch.rpm
+# rpm -ivh epel-release-6-8.noarch.rpm
+
+$ sudo yum install ansible
